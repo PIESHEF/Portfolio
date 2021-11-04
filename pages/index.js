@@ -2,6 +2,7 @@ import Head from "next/head";
 import Footer from "../components/Footer";
 import Skills from "../components/Skill";
 import Navbar from "../components/Navbar";
+import Title from "../components/Title";
 
 export default function Home() {
   return (
@@ -14,7 +15,8 @@ export default function Home() {
       <Navbar />
 
       <br />
-      <p className="flex justify-center font-sans">Languages</p>
+      <Title value="Languages" />
+      <br />
 
       <div className="flex justify-center">
         <div className="grid gap-x-8 gap-y-4 grid-cols-3">
@@ -46,7 +48,8 @@ export default function Home() {
       </div>
 
       <br />
-      <p className="flex justify-center font-sans">Frameworks</p>
+      <Title value="Frameworks" />
+      <br />
 
       <div className="flex justify-center">
         <div className="grid gap-x-8 gap-y-4 grid-cols-3">
@@ -66,7 +69,8 @@ export default function Home() {
       </div>
 
       <br />
-      <p className="flex justify-center font-sans">Database</p>
+      <Title value="Databases" />
+      <br />
 
       <div className="flex justify-center">
         <div className="grid gap-x-8 gap-y-4 grid-cols-2">
@@ -82,7 +86,8 @@ export default function Home() {
       </div>
 
       <br />
-      <p className="flex justify-center font-sans">Devops</p>
+      <Title value="Devops" />
+      <br />
 
       <div className="flex justify-center">
         <div className="grid gap-x-8 gap-y-4 grid-cols-4">
