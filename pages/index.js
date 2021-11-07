@@ -86,7 +86,7 @@ export default function Home() {
       </div>
 
       <br />
-      <Title value="Devops" />
+      <Title value="Dev Tools" />
       <br />
 
       <div className="flex justify-center">
